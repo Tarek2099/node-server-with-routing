@@ -1,4 +1,5 @@
 const bufferData = Buffer.from('content/content.txt', 'utf-8');
+console.log(bufferData);
 console.log(bufferData.toString());
 console.log(bufferData.length);
 const base64 = bufferData.toString('base64')
